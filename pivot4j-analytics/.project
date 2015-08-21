@@ -35,11 +35,6 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand>
-			<name>org.jboss.tools.arquillian.core.arquillianBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.sonar.ide.eclipse.core.sonarNature</nature>
