@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+	http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+	<application>
+		<resource-bundle>
+			<base-name>com.toparchy.molecule.bi.olap.i18n.messages</base-name>
+			<var>msg</var>
+		</resource-bundle>
+		<message-bundle>com.toparchy.molecule.bi.olap.i18n.messages</message-bundle>
+		<locale-config>
+			<default-locale>zh_CN</default-locale>
+		</locale-config>
+	</application>
+
+	<factory>
+		<exception-handler-factory>
+			com.toparchy.molecule.bi.olap.exception.Pivot4JExceptionHandlerFactory</exception-handler-factory>
+	</factory>
+
+	<lifecycle>
+		<phase-listener>com.toparchy.molecule.bi.olap.listener.LocaleInitializer</phase-listener>
+	</lifecycle>
+
+	<component>
+		<component-type>org.primefaces.component.Tree</component-type>
+		<component-class>com.toparchy.molecule.bi.olap.component.tree.Tree</component-class>
+	</component>
+</faces-config>

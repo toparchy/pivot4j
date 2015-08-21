@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="pivot4j-analytics">
+        <wb-resource deploy-path="/WEB-INF/web.xml" source-path="/target/generated-resources/xml/xslt/web.xml"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <property name="context-root" value="pivot4j"/>
+        <property name="java-output-path" value="/pivot4j-analytics/target/classes"/>
+    </wb-module>
+</project-modules>
