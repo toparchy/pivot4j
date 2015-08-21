@@ -7,7 +7,6 @@
  * ====================================================================
  */
 package com.toparchy.molecule.bi.olap.component;
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Map;
